@@ -47,7 +47,7 @@ learning_rate = float(os.environ.get('LEARNING_RATE', "7e-6"))
 gamma = float(os.environ.get('GAMMA', "0.999"))
 value_c = float(os.environ.get('VALUE_C', "0.6"))
 entropy_c = float(os.environ.get('ENTROPY_C', "1e-7"))
-updates = int(os.environ.get('UPDATES', "3"))
+updates = int(os.environ.get('UPDATES', "60"))
 batch_sz = int(os.environ.get('BATCH_SZ', "64"))
 
 
